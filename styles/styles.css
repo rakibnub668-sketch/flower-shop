@@ -1,0 +1,296 @@
+/* lato font */
+.lato{
+  font-family: "Lato", sans-serif;
+}
+
+/* Shared styles */
+section{
+  margin-top: 128px;
+}
+.description{
+  font-size: 18px;
+  color: rgba(39, 39, 39, 0.6);
+}
+.title{
+  font-size: 40;
+  font-weight: 700;
+}
+.text-center{
+  text-align: center;
+}
+
+/* header section */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgba(229, 84, 115, 0.1);
+  height: 850px;
+  padding: 30px 100px ;
+}
+.header-container{
+  max-width: 600px;
+}
+.header-title{
+  font-size: 80px;
+  font-weight: 700;
+}
+
+.btn{
+  padding: 20px 40px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  background-color: rgba(229, 84, 115, 1);
+  border-radius: 8px;
+  margin-top: 32px;
+  cursor: pointer;
+}
+.img-container{
+  width: 635px;
+}
+.img-container img{
+  height: auto;
+  width: 100%;
+}
+
+/* main section styles */
+/* Feature styles */
+.feature-description{
+  margin: 178px auto 0;
+  height: 60px;
+  width: 600px;
+  
+}
+.flower-container{
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  gap: 24px;
+  margin-top: 100px;
+ 
+}
+.flower-card > div {
+  width: 470px;
+  height: 540px;
+  border-radius: 50% 50% 0 0;
+  display: flex;
+}
+.feature-img-1-container{
+  background-color: rgba(167, 33, 98, 0.15);
+   position: relative;
+ 
+
+ 
+}
+.feature-img-1-container img{
+  width: 310px;
+  height: 430px;
+  position: absolute;
+  bottom: 0;
+  right: 50px;
+  left: 50px;
+}
+.feature-img-2-container{
+  background-color: rgba(5, 151, 160, 0.15);
+position: relative;
+}
+.feature-img-2-container img{
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+  left: 50px;
+  width: 370px;
+  height: 370px;
+}
+.feature-img-3-container{
+  background-color: rgba(71, 125, 17, 0.15);
+  position: relative;
+}
+.feature-img-3-container img{
+  position: absolute;
+  bottom: 0px;
+  right: 50px;
+  left: 50px;
+  width: 314px;
+  height: 471px;
+
+}
+.flower-name{
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 0;
+  color: rgba(39, 39, 39, 1);
+}
+
+.flower-card hr{
+  margin: 0 auto;
+  width: 175px;
+ 
+}
+
+/* service-section */
+.service-section{
+  margin: 0 auto;
+  width: 1110px;
+  height: 300px;
+    background-color: rgba(39, 39, 39, 0.05);
+    padding: 90px 175px;
+    display: flex;
+    margin-top: 130px;
+
+}
+.service-container{
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.service-card img{
+  width: 88px;
+  height: 88px;
+}
+.service-description{
+  font-size: 24px;
+  font-weight: 600;
+  color: rgba(39, 39, 39, 0.8);
+
+}
+
+/* Sale section */
+.sale-section{
+  display: flex;
+  background-color: rgba(229, 84, 115, 0.05);
+  gap: 190px;
+  justify-content: center;
+  align-items: center;
+  height: 620px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 128px;
+}
+.sale-container{
+  width: 600px;
+  height: 230px;
+}
+.sale-img{
+  width: 320px;
+  height: 420px;
+}
+.sale-img img{
+  height: 100%;
+  width: 100%;
+}
+#sale-des{
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+#sale-btn{
+  margin-top: 0px;
+}
+#sale-title{
+  margin-bottom: 0px;
+}
+
+/* Instagram section */
+.instagram{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.insta{
+  width: 594px;
+  height: 132px;
+  margin-bottom: 48px;
+}
+
+
+.insta-img-container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 24px;
+
+}
+.insta-img-container img{
+  width: 342px;
+  height: 396px;
+}
+
+/* Deals section */
+
+.latest-deals{
+
+width: 100%;
+/* height: 450px; */
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.deals{
+  background-image: url('../Flower Asset/Rectangle 9.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 1440px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+
+ 
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  width: 800px;
+}
+.deals input[type="email"]{
+  background-color: white;
+  color:  rgba(39, 39, 39, 0.6);
+  width: 550px;
+  height: 66px;
+  border: none;
+  padding:  0 15px;
+  border-radius: 8px;
+  outline: none;
+  margin-right: 12px;
+}
+/* Footer section */
+.footer{
+  background-color: rgba(17, 16, 16, 1);
+  margin-top: 120px;
+  height: 450px;
+  width: 100%;
+  
+
+}
+.footer-content{
+    padding-bottom: 128px;
+  padding-top: 128px;
+
+
+
+}
+.footer-heading{
+  font-size: 48px;
+  font-weight: 700;
+
+}
+.footer-description{
+   color: rgba(255, 255, 255, 0.739);
+   font-size: 18px;
+   /* font-weight: 200; */
+}
+.footer-sub-title{
+  color: rgba(255, 255, 255, 0.4);
+
+}
